@@ -1,6 +1,5 @@
 .intel_syntax noprefix
 	.section .text
-	.global _start
-_start:
-    mov rax, 1
-    int3
+	.global  AND_FRAG
+
+AND_FRAG:
